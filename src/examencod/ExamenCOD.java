@@ -18,6 +18,9 @@ if (metodoMio(x))
 System.out.print(x + " ");                         	 
 }         	 
 	}
+    
+    // O valor da variable 'aux' para variable=16 y j=2 é false, poñendo un punto de ruptura en int j=2 e avanzando con f8 hasta o while,e ahí darlle eses valores .
+    //facendo o debug no if podemos ver que j=21 é desigual a variable=22, polo tanto a variable "aux" colle o valor de TRUE
 public static boolean metodoMio(int variable){
 int j = 2;
 boolean aux=true;
